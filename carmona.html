@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap">
+    <meta name="description" content="Johanna Carmona for Assembly - Learn about her campaign, funding, and vision for the community.">
+    <meta name="keywords" content="Johanna Carmona, Assembly, Campaign, Community Leader, Election">
+    <style>
+    /* Resetting default margins and paddings */
+    body, h1, ul, p, section {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CSS for styling tabs */
+    ul.tabs {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #FFD700; /* Yellow background color */
+    }
+    ul.tabs li {
+        float: left;
+    }
+    ul.tabs li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold; /* Bold font weight */
+    }
+    ul.tabs li a:hover {
+        background-color: #ddd;
+    }
+    /* CSS for styling the active tab */
+    ul.tabs li.active {
+        background-color: #ccc;
+    }
+    /* CSS for image styling */
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd; /* Example border styling */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Example box shadow */
+    }
+    /* CSS for header styling */
+    h1, h2, h3, h4 {
+        color: rgb(226, 64, 64); /* Red text color for headers */
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4.5em; /* Larger font size */
+        font-weight: bold;
+        line-height: 1.2;
+        color: #fff; /* White text color */
+        margin-top: 20px; /* Example margin top */
+        position: absolute;
+        top: 200px;
+        right: 10px; /* Adjust as needed for positioning */
+        z-index: 1; /* Ensure it stays on top of the image */
+    }
+    .purple-text {
+        color: rgb(215, 85, 215); /* Purple color */
+    }
+    .gold-text {
+        color: rgba(255, 77, 0, 0.842); /* Gold color with alpha */
+    }
+    /* CSS for the whole page */
+    body {
+        background-color: #4B0082; /* Dark purple background color */
+        color: #fff; /* White text color */
+        font-family: Arial, sans-serif; /* Fallback font family */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        position: relative; /* Ensure the header stays within the body */
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        position: bottom;
+        bottom: 0;
+        width: 100%;
+    }
+    /* Additional CSS for larger headers */
+    h2 {
+        font-size: 2em; /* Adjust the size as needed */
+        color: #FFD700; /* Gold color */
+        font-weight: bold; /* Bold text */
+    }
+    /* Smaller header for Solidarity PAC */
+    .solidarity-header {
+        font-size: 1.5em; /* Smaller size */
+        color: #ff5100; /* Gold color */
+        font-weight: bold; /* Bold text */
+    }
+    /* CSS for the yellow lines */
+    .yellow-line {
+        border-top: 5px solid rgba(255, 217, 0, 0.842); /* Thick yellow line */
+        margin: 20px 0; /* Spacing around the lines */
+    }
+    /* Section styling for spacing */
+    section {
+        padding: 20px;
+    }
+    /* Flexbox for aligning items */
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    /* CSS for image container */
+    .image-container {
+        text-align: center;
+    }
+    /* Small space between paragraphs and images */
+    .space-between-paragraph-img {
+        margin-bottom: 10px;
+    }
+    /* Small spaces between images */
+    .small-space img {
+        margin-bottom: 10px;
+    }
+    /* CSS for link colors */
+    a {
+        color: #FFD700; /* Gold color */
+        text-decoration: underline; /* Underline to differentiate links */
+    }
+    a:hover {
+        color: #FFA500; /* Orange color on hover */
+    }
+    /* Gold line styling */
+    .gold-line {
+        border-top: 2px solid rgba(255, 217, 0, 0.842); /* Thin gold line */
+        margin: 20px 0; /* Spacing around the line */
+    }
+    /* Video container styling */
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* Aspect ratio 16:9 (height/width * 100) */
+        overflow: hidden;
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1><span class="purple-text">Johanna Carmona</span><br><span class="gold-text">For Assembly</span></h1>
+    </header>
+    <nav>
+        <ul class="tabs">
+            <li><a href="#funding" title="Find out who is funding Johanna Carmona">Who's funding Carmona?</a></li>
+            <li><a href="#donations" title="Learn about Johanna Carmona's donation policies">Does Carmona have to accept all donations?</a></li>
+            <li><a href="#importance" title="Understand the importance of campaign funding">Why does it matter?</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Image -->
+        <div class="image-container">
+            <img src="image1.jpg" alt="Johanna Carmona at a community event">
+            <h1><span class="purple-text" style="font-size: 1em;">Johanna Carmona</span><br><span class="gold-text" style="font-size: 1em;">For Assembly</span></h1>
+        </div>
+    </main>
+    
+    </section>
+    <section id="video">
+        <hr class="yellow-line">
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/761DFboxnXQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="funding">
+        <hr class="yellow-line">
+        <h2>Who's Funding Johanna Carmona?</h2>
+        <p>Johanna Carmona's campaign is funded by individuals and organizations dedicated to [brief description of funding sources or principles]. Learn more about the supporters who believe in Johanna's vision for [District/City].</p>
+    </section>
+    <section id="solidarity">
+        <h3 class="solidarity-header">Solidarity PAC</h3>
+        <p class="space-between-paragraph-img">Solidarity PAC Mission: "Solidarity PAC is a group of individuals who value the American alliance with Israel and the tight-knit relationship the majority of New Yorkers have with the state of Israel."</p>
+        <div class="flex-container small-space">
+            <img src="image4.jpg" alt="Image 4">
+        </div>
+        <p style="text-align: left;"><a href="https://publicreporting.elections.ny.gov/CandidateCommitteeDisclosure" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source: NYS BOE)</a></p>
+    </section>
+    <section id="millionaires">
+        <hr class="gold-line">
+        <h3 class="solidarity-header">Out of District Millionaires & Billionaires</h3>
+        <div class="flex-container small-space">
+            <img src="image6.jpg" alt="Image 6">
+        </div>
+        <p style="text-align: left;"><a href="https://www.forbes.com/profile/leonard-stern/" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source)</a></p>
+        <br>
+        <div class="flex-container small-space">
+            <img src="image8.jpg" alt="Image 8">
+        </div>
+        <p style="text-align: left;"><a href="https://publicreporting.elections.ny.gov/CandidateCommitteeDisclosure" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source: NYS BOE)</a></p>
+
+        <hr class="gold-line">
+        <div class="flex-container small-space">
+            <img src="image5.jpg" alt="image1">    
+        </div>
+        <p style="text-align: left;"><a href="https://www.deeptrackcapital.com/team" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source)</a></p>
+        <br>
+        <div class="flex-container small-space">
+            <img src="image10.jpg" alt="Image 10">
+        </div>
+        <p style="text-align: left;"><a href="https://publicreporting.elections.ny.gov/CandidateCommitteeDisclosure" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source: NYS BOE)</a></p>
+
+        <hr class="gold-line">
+        <br>
+        <div class="flex-container small-space">
+            <img src="image7.jpg" alt="Image 7">
+        </div>
+        <p style="text-align: left;"><a href="https://ir.cimpress.com/board-member/zachary-sternberg" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source)</a></p>
+        <br>
+        <div class="flex-container small-space">
+            <img src="image9.jpg" alt="Image 9">
+        </div>
+        <p style="text-align: left;"><a href="https://publicreporting.elections.ny.gov/CandidateCommitteeDisclosure" target="_blank" rel="noopener noreferrer" style="font-size: 11px;">(Source: NYS BOE)</a></p>
+    </section>
+    <section id="donations">
+        <hr class="yellow-line">
+        <h2>Does Carmona have to accept all donations?</h2>
+        <p><strong>No. Not at all.</strong></p>
+        <p>The NYS Campaign Finance Board allows refunds of contributions and has stated such in their website <a href="https://elections.ny.gov/campaign-finance-frequently-asked-questions#:~:text=Refunds%20of%20Contributions&text=Copies%20of%20refund%20checks%20must,days%20to%20resolve%20the%20deficiency."><strong>(NYS BOE)</strong></a>.</p>
+        <p>In 2022, Jonathan Soto, a state assembly candidate at the time, “returned a $4,700 donation from electronic trading exec Michael Jenkins” <a href="https://www.thecity.nyc/2022/06/14/jonathan-soto-aoc-donation-bronx/"><strong>(The City)</strong></a>.</p>
+        <p><strong>Carmona can do the same, but has failed to, and shows no intention in refunding the contributions highlighted above.</strong></p>
+    </section>
+    <section id="importance">
+        <hr class="yellow-line">
+        <h2>Why does it matter?</h2>
+        <p>The source of campaign funding can influence policies and decisions made by elected officials. By understanding where Johanna Carmona's support comes from, voters can make informed decisions about her candidacy and her commitment to representing their interests.</p>
+    </section>
+    <footer>
+        <p>&copy; Funded by Johanna Carmona for Assembly</p>
+    </footer>
+</body>
+</html>
